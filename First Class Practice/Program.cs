@@ -1,6 +1,6 @@
 ﻿using First_Class_Practice;
 
-Person student = new Person();
+Person student = new Person();       // Add person to class
 student.Name = "Furkan";
 student.Surname = "Coşkun";
 student.Role = "Öğrenci";
@@ -18,6 +18,6 @@ teacher.Surname = "Yılmaz";
 teacher.Role = "Öğretmen";
 teacher.Birthday = new DateTime(1993,12,14);
 
-student.Print();
+student.Print();     // Print saved persons
 student2.Print();
 teacher.Print();

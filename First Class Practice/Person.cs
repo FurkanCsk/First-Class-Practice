@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace First_Class_Practice
 {
-    public class Person
+    public class Person 
     {
-        private string name;
+        private string name;      // A field for person's information
         private string surname;
         private string role;
         private DateTime birthday;
 
 
-        public string Name
+        public string Name   // Defining properties 
         {
             get
             {
@@ -56,7 +56,7 @@ namespace First_Class_Practice
             }
             set
             {
-                if(value > DateTime.Now)
+                if(value > DateTime.Now)  // An if condition that verifies the accuracy of the birth date
                 {
                     Console.WriteLine("Doğum tarihi şu anki tarihten ileride olamaz.");
                 }
@@ -67,7 +67,7 @@ namespace First_Class_Practice
             }
         }
 
-        public void Print()
+        public void Print()   // A method that prints the person's information
         {
             Console.WriteLine($"Adı :{name}\nSoyadı :{surname}\nRolü : {role}\nDoğum Tarihi :{birthday.ToString("yyyy.MM.dd")}\n");
         }
