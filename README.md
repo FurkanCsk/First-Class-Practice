@@ -2,7 +2,8 @@
 
 OOP'ye giriş olarak class yapısını pekiştirmek amacıyla yapmış olduğum ilk class pratiğimdir. Programın detayları şu şekildedir :
 
-![image](https://github.com/user-attachments/assets/35f181a0-2fed-430f-816c-69eadab9c0a7)
+![image](https://github.com/user-attachments/assets/698d47a8-7730-4cd7-80d2-834eb33155cb)
+
 
 
 Pratik - İlk Sınıfımızı Oluşturuyoruz
