@@ -10,6 +10,7 @@ namespace First_Class_Practice
     {
         private string name;
         private string surname;
+        private string role;
         private DateTime birthday;
 
 
@@ -35,6 +36,18 @@ namespace First_Class_Practice
                 surname = value;
             }
         }
+
+        public string Role
+        {
+            get 
+            {
+                return role;
+            }
+            set
+            {
+                role = value;
+            }
+        }
         public DateTime Birthday
         {
             get
@@ -56,7 +69,7 @@ namespace First_Class_Practice
 
         public void Print()
         {
-            Console.WriteLine($"Adı :{name}\nSoyadı :{surname}\nDoğum Tarihi :{birthday.ToString("yyyy.MM.dd")}\n");
+            Console.WriteLine($"Adı :{name}\nSoyadı :{surname}\nRolü : {role}\nDoğum Tarihi :{birthday.ToString("yyyy.MM.dd")}\n");
         }
     }
 }
