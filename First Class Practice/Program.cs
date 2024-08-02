@@ -1,0 +1,20 @@
+﻿using First_Class_Practice;
+
+Person student = new Person();
+student.Name = "Furkan";
+student.Surname = "Coşkun";
+student.Birthday = new DateTime(1999,02,24);
+
+Person student2 = new Person();
+student2.Name = "Canberk";
+student2.Surname = "Doğan";
+student2.Birthday = new DateTime(1999,05,05);
+
+Person teacher = new Person();
+teacher.Name = "Necmettin";
+teacher.Surname = "Yılmaz";
+teacher.Birthday = new DateTime(1993,12,14);
+
+student.Print();
+student2.Print();
+teacher.Print();
