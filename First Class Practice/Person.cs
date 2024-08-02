@@ -14,40 +14,9 @@ namespace First_Class_Practice
         private DateTime birthday;
 
 
-        public string Name   // Defining properties 
-        {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-        public string Surname
-        {
-            get
-            {
-                return surname;
-            }
-            set
-            {
-                surname = value;
-            }
-        }
-
-        public string Role
-        {
-            get 
-            {
-                return role;
-            }
-            set
-            {
-                role = value;
-            }
-        }
+        public string Name { get; set; } // Defining properties 
+        public string Surname { get; set; }
+        public string Role { get; set; }
         public DateTime Birthday
         {
             get
